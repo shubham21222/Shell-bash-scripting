@@ -1,0 +1,10 @@
+#! bin/bash
+# in this bash script we find a file from root path and also current path
+
+
+#for current path
+find .-name "hello.txt"
+
+#for root path
+find / -name "hello.txt"
+
